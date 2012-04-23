@@ -4,6 +4,6 @@ The kicad folder contains all of the files necessary for KiCAD. This includes th
 
 The firmware folder contains the firmware for the msp430f5438 microcontroller being used on the board.
 
-The software folder contains the server side of things including the web client to control the exposure box.
+The software folder contains the server side of things including the web client to control the exposure box. This part will not be done for a while after the hardware has been finished.
 
 If you have any questions just contact me on here or you can find my contact info at jon.resistars.com.
