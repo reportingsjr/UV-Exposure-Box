@@ -1,6 +1,9 @@
 This repository has all of the files for my UV Exposure Box.
+
 The kicad folder contains all of the files necessary for KiCAD. This includes the schematic, netlist, board, and gerber files.
+
 The firmware folder contains the firmware for the msp430f5438 microcontroller being used on the board.
+
 The software folder contains the server side of things including the web client to control the exposure box.
 
 If you have any questions just contact me on here or you can find my contact info at jon.resistars.com.
