@@ -2,7 +2,7 @@ This repository has all of the files for my UV Exposure Box.
 
 The kicad folder contains all of the files necessary for KiCAD. This includes the schematic, netlist, board, and gerber files.
 
-The firmware folder contains the firmware for the msp430f5438 microcontroller being used on the board. The firmware is the msp430 variant of C.
+The firmware folder contains the firmware for the msp430f5438 microcontroller being used on the board. The firmware is the msp430 variant of C. To program the microcontroller (code currently tested with a launchpad) run cmake and the makefile. Then you need to run `mspdebug --usb-list` to get a list of devices. Copy the bus:device number from this list (it is the numbers in the first column, not the second). When you have this set of numbers run `mspdebug -U bus:device rf2500` replacing bus:device with the numbers you copied. When mspdebug starts up enter `prog main.elf` and once the microcontroller has been programmed type `run` and the device will start! If you just want to program the microcontroller you only need to do the first command and then you can unplug the device.
 
 The software folder contains the server side of things including the web client to control the exposure box. This part will not be done for a while after the hardware has been finished.
 
