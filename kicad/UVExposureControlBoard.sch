@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 12 Apr 2012 11:44:37 PM EDT
+EESchema Schematic File Version 2  date Wed 30 Jan 2013 09:46:29 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "UV Exposure Box Control Board"
-Date "13 apr 2012"
+Date "31 jan 2013"
 Rev "1"
 Comp "Jon Neal"
 Comment1 "jon.transistars.com"
@@ -1491,7 +1491,7 @@ L R R5
 U 1 1 4F2B682D
 P 3300 2150
 F 0 "R5" V 3380 2150 50  0000 C CNN
-F 1 "16k" V 3300 2150 50  0000 C CNN
+F 1 "16.40k" V 3300 2150 50  0000 C CNN
 	1    3300 2150
 	0    1    1    0   
 $EndComp
@@ -1509,7 +1509,7 @@ L INDUCTOR L1
 U 1 1 4F2B670E
 P 3550 1550
 F 0 "L1" V 3500 1550 40  0000 C CNN
-F 1 "82uH" V 3650 1550 40  0000 C CNN
+F 1 "33.56uH" V 3650 1550 40  0000 C CNN
 	1    3550 1550
 	0    -1   -1   0   
 $EndComp
@@ -1554,7 +1554,7 @@ L R R2
 U 1 1 4F2B648B
 P 1750 900
 F 0 "R2" V 1830 900 50  0000 C CNN
-F 1 ".56" V 1750 900 50  0000 C CNN
+F 1 ".25" V 1750 900 50  0000 C CNN
 	1    1750 900 
 	0    1    1    0   
 $EndComp

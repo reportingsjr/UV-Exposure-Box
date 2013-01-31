@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 12 Apr 2012 05:32:29 AM EDT
+EESchema Schematic File Version 2  date Thu 12 Apr 2012 11:44:37 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "UV Exposure Box Control Board"
-Date "12 apr 2012"
+Date "13 apr 2012"
 Rev "1"
 Comp "Jon Neal"
 Comment1 "jon.transistars.com"
@@ -45,15 +45,9 @@ Comment2 "Copyright 2012"
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L 08B1-1X1T-06-F U3
-U 1 1 4F86A090
-P 5150 3800
-F 0 "U3" H 5500 4000 60  0000 C CNN
-F 1 "08B1-1X1T-06-F" H 4950 4000 60  0000 C CNN
-	1    5150 3800
-	1    0    0    -1  
-$EndComp
+Connection ~ 5350 4750
+Wire Wire Line
+	5350 4750 5350 4850
 Wire Wire Line
 	10500 5050 10750 5050
 Wire Wire Line
@@ -468,6 +462,26 @@ Wire Wire Line
 	2600 3150 2600 2900
 Wire Wire Line
 	10500 2750 10750 2750
+Wire Wire Line
+	5300 4750 5400 4750
+$Comp
+L GND #PWR?
+U 1 1 4F87A10B
+P 5350 4850
+F 0 "#PWR?" H 5350 4850 30  0001 C CNN
+F 1 "GND" H 5350 4780 30  0001 C CNN
+	1    5350 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 08B1-1X1T-06-F U3
+U 1 1 4F86A090
+P 5150 3800
+F 0 "U3" H 5500 4000 60  0000 C CNN
+F 1 "08B1-1X1T-06-F" H 4950 4000 60  0000 C CNN
+	1    5150 3800
+	1    0    0    -1  
+$EndComp
 Text Label 10500 2750 0    50   ~ 0
 DVCC2
 Text Label 2600 3150 1    50   ~ 0
